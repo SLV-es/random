@@ -1,7 +1,8 @@
 var numero=Math.random();
+var respuesta = ' MAYOR';
 
 if (numero<=0.5) {
-	console.log('\n' + numero + ' Menor o igual que 0,5 \n');
-} else {
-	console.log('\n' + numero + ' Mayor que 0,5 \n');	
+	respuesta = ' MENOR o igual';
 }
+
+console.log('\n' + numero + respuesta + ' que 0,5\n');
